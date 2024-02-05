@@ -3,7 +3,6 @@ import { basics } from "@/cv.json";
 import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
-import X from "@/icons/X.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
 
@@ -13,7 +12,6 @@ const { city, region } = location;
 const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   LinkedIn,
-  X,
 };
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
@@ -60,7 +58,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
           )
         }
         {
-          profiles.map(({ network, url, username }) => {
+          profiles.map(({ network, url }) => {
             const Icon = SOCIAL_ICONS[network];
 
             return (
