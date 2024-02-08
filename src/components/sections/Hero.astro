@@ -1,11 +1,11 @@
 ---
 import { basics } from "@/cv.json";
 import Section from "@/components/Section.astro";
+import type { SocialIcon } from "@/types";
+import GitHub from "@/icons/gitHub.astro";
+import LinkedIn from "@/icons/linkedIn.astro";
 import Mail from "@/icons/mail.astro";
 import Phone from "@/icons/phone.astro";
-import LinkedIn from "@/icons/linkedIn.astro";
-import GitHub from "@/icons/gitHub.astro";
-import type { SocialIcon } from "@/types";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
