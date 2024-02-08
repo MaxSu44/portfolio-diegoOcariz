@@ -187,8 +187,8 @@
   ],
   "projects": [
     {
-      "name": "uDemos: Uma Arquitetura de Sensoriamento Ubíquo para Suporte á Epidemiologia",
-      "isActive": false,
+      "name": "uDemos: Arquitetura de Sensoriamento Ubíquo",
+      "isActive": true,
       "description": "Projeto de Pesquisa: uDemos: Uma Arquitetura de Sensoriamento Ubíquo para Suporte á Epidemiologia",
       "highlights": [
         "Proyecto de Iniciación Científica"
@@ -196,13 +196,13 @@
     },
     {
       "name": "Clon-spotify-astro",
-      "isActive": false,
+      "isActive": true,
       "description": "Clon de Spotify desarrollado con Astro y react",
       "highlights": [
         "Desarrollo Web",
         "JavaScript & React"
       ],
-      "url": "https://github.com/MaxSu44/clon-spotify-astro"
+      "github": "https://github.com/MaxSu44/clon-spotify-astro"
     },
     {
       "name": "covid-app",
@@ -211,11 +211,11 @@
       "highlights": [
         "Dessarrolado en React"
       ],
-      "url": "https://github.com/MaxSu44/covid-app"
+      "github": "https://github.com/MaxSu44/covid-app"
     },
     {
       "name": "gerenciador-de-salas-de-reunioes",
-      "isActive": false,
+      "isActive": true,
       "description": "Proyecto para el manejo de salas de reunión de una empresa",
       "highlights": [
         "Desarrollo Web",
@@ -224,7 +224,7 @@
     },
     {
       "name": "netflix-clone",
-      "isActive": false,
+      "isActive": true,
       "description": "Clon de Netflix desarrollado con React",
       "highlights": [
         "Desarrollo Web",
@@ -233,9 +233,14 @@
     },
     {
       "name": "portfolio-diegoOcariz ",
+      "isActive": true,
       "description": "Portfolio personal de Diego Ocariz desarrolaldo con Astro.",
-      "highlights": [],
-      "url": "https://github.com/MaxSu44/portfolio-diegoOcariz"
+      "highlights": [
+        "Desarrollo Web",
+        "JavaScript & Astro"
+      ],
+      "github": "https://github.com/MaxSu44/portfolio-diegoOcariz",
+      "url": ""
     }
   ]
 }
